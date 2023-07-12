@@ -1,0 +1,12 @@
+#transition{
+    width :100px;
+    height: 100px;
+    background: red;
+    transition: all 2s;
+}
+#transition:hover{
+width: 400px;
+height: 400px;
+border-radius: 50%;
+background-color: green;
+}
