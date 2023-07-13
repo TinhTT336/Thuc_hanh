@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>th1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+      
+
+        .team{
+            position: relative;
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            width: 200px;
+        }
+
+        .team ul ul {
+            position: absolute;
+            top: 0;
+            left: 140px;
+            visibility: hidden;
+        }
+
+        .team li a {
+            color: #fff;
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        .team li:hover {
+            background-color: red;
+        }
+
+        .team ul li:hover ul {
+            visibility: visible;
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Manchester United</a>
+                <ul>
+                    <li><a href="#">M1</a>
+                    <li><a href="#">M2</a>
+                    <li><a href="#">M3</a>
+                    <li><a href="#">M4</a>
+                    <li><a href="#">M5</a>
+                </ul>
+            </li>
+            <li><a href="#">Manchester City</a>
+                <ul>
+                    <li><a href="#">C1</a>
+                    <li><a href="#">C2</a>
+                    <li><a href="#">C3</a>
+                    <li><a href="#">C4</a>
+                    <li><a href="#">C5</a>
+                </ul>
+            </li>
+            <li><a href="#">Arsenal FC</a>
+                <ul>
+                    <li><a href="#">A1</a>
+                    <li><a href="#">A2</a>
+                    <li><a href="#">A3</a>
+                    <li><a href="#">A4</a>
+                    <li><a href="#">A5</a>
+                </ul>
+            </li>
+            <li><a href="#">Chelsea FC</a>
+                <ul>
+                    <li><a href="#">Ch1</a>
+                    <li><a href="#">Ch2</a>
+                    <li><a href="#">Ch3</a>
+                    <li><a href="#">Ch4</a>
+                    <li><a href="#">Ch5</a>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    </div>
+</body>
+
+</html>
